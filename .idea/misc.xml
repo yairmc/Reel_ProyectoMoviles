@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/font/font.xml" value="0.21822916666666667" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.22" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_main.xml" value="0.18" />
       </map>
     </option>
   </component>
