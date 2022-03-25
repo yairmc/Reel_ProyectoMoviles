@@ -156,7 +156,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="199dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="110dp"
             android:layout_marginTop="35dp"
@@ -164,10 +164,10 @@
             android:background="@drawable/round_button_dos"
             android:fontFamily="@font/littera_regular"
             android:text="Ingresar"
-            android:textSize="19dp"
-            android:textStyle="bold"
             android:textAllCaps="false"
-            android:textColor="@color/black_buttons" />
+            android:textColor="@color/black_buttons"
+            android:textSize="19dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -175,7 +175,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="202dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="110dp"
             android:layout_marginTop="15dp"
@@ -183,10 +183,10 @@
             android:background="@drawable/round_button_dos"
             android:fontFamily="@font/littera_regular"
             android:text="Registrarse"
-            android:textStyle="bold"
-            android:textSize="19dp"
             android:textAllCaps="false"
-            android:textColor="@color/black_buttons" />
+            android:textColor="@color/black_buttons"
+            android:textSize="18dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>
