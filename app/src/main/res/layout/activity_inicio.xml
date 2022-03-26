@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_background"
+    tools:context=".Inicio">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logotipo" />
+
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/round_button"
+        android:text="Cd. Obregón, Sonora, Méx."
+        android:fontFamily="@font/littera_regular"
+        android:textAllCaps="false" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grisblack">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/sliderView"
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+
+                    android:layout_marginBottom="15dp"
+                    app:sliderAnimationDuration="500"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="500"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="14dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="2dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="@color/gris"
+                    app:sliderIndicatorUnselectedColor="@color/white"
+                    app:sliderScrollTimeInSec="2"
+                    app:sliderStartAutoCycle="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Promociones cerca de ti"
+                android:fontFamily="@font/littera_regular"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="295dp"
+                    android:layout_marginTop="15dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
