@@ -49,14 +49,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_usuario"/>
+        </LinearLayout>
+
 
         <TextView
-            android:drawableLeft="@drawable/ic_usuario"
-            android:drawablePadding="3dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="5dp"
             android:layout_weight="1"
             android:fontFamily="@font/littera_regular"
             android:text="Nombre de Usuario"
@@ -104,16 +116,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="132dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_password"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="20dp"
-            android:drawableLeft="@drawable/ic_password"
-            android:drawablePadding="3dp"
             android:fontFamily="@font/littera_regular"
             android:text="Contraseña"
-            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
