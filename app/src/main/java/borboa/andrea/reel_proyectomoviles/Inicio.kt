@@ -2,6 +2,8 @@ package borboa.andrea.reel_proyectomoviles
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
+import android.widget.ListView
 import borboa.andrea.reel_proyectomoviles.databinding.ActivityInicioBinding
 import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType
 import com.smarteist.autoimageslider.SliderAnimations
@@ -17,6 +19,10 @@ class Inicio : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityInicioBinding.inflate(layoutInflater)
+
+
+
+
 
         setContentView(binding.root)
 
