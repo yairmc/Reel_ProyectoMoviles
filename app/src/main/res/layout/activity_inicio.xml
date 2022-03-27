@@ -176,7 +176,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cines"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="20dp"
             android:textColor="@color/white"
             android:textSize="15dp"
             android:fontFamily="@font/littera_regular"/>
@@ -184,7 +184,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Perfil"
-            android:layout_marginLeft="38dp"
+            android:layout_marginLeft="34dp"
             android:textColor="@color/white"
             android:textSize="15dp"
             android:fontFamily="@font/littera_regular"/>
