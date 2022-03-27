@@ -16,25 +16,26 @@
 
 
     <Button
-        android:layout_width="235dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="80dp"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginRight="100dp"
         android:background="@drawable/round_button"
-        android:text="Cd. Obregón, Sonora, Méx."
         android:fontFamily="@font/littera_regular"
+        android:text="Cd. Obregón, Sonora, Méx."
         android:textAllCaps="false" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="533dp">
 
 
         <LinearLayout
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/grisblack">
+            android:layout_marginTop="10dp"
+            android:background="@color/grisblack"
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -64,13 +65,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
                 android:layout_marginLeft="15dp"
-                android:text="Promociones cerca de ti"
+                android:layout_marginTop="15dp"
                 android:fontFamily="@font/littera_regular"
-                android:textStyle="bold"
+                android:text="Promociones cerca de ti"
+                android:textColor="@color/white"
                 android:textSize="20dp"
-                android:textColor="@color/white"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,14 +80,107 @@
                 <ListView
                     android:id="@+id/listview"
                     android:layout_width="match_parent"
-                    android:layout_height="295dp"
+                    android:layout_height="321dp"
                     android:layout_marginTop="15dp" />
 
             </LinearLayout>
 
 
         </LinearLayout>
-
     </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/color_background">
+
+        <Button
+            android:id="@+id/btn_inicio"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/ic_inicio_on" />
+        <Button
+            android:id="@+id/btn_cartelera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_cartelera_off" />
+        <Button
+            android:id="@+id/btn_estrenos"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_estrenos_off" />
+
+        <Button
+            android:id="@+id/btn_cines"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_cines_off"/>
+
+        <Button
+            android:id="@+id/btn_perfil"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_perfil_off" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicio"
+            android:layout_marginLeft="24dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cartelera"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estrenos"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cines"
+            android:layout_marginLeft="27dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil"
+            android:layout_marginLeft="38dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>

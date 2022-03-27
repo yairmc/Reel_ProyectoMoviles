@@ -6,8 +6,8 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_marginTop="15dp"
         android:id="@+id/imageItem"
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="160dp"
         app:srcCompat="@drawable/dosporuno" />
