@@ -55,12 +55,12 @@
             android:orientation="vertical">
 
             <Button
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
-                android:background="@drawable/ic_usuario"/>
+                android:background="@drawable/ic_usuario" />
         </LinearLayout>
 
 
@@ -73,7 +73,7 @@
             android:fontFamily="@font/littera_regular"
             android:text="Nombre de Usuario"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -109,6 +109,7 @@
             android:layout_marginTop="9dp"
             android:textAlignment="center"
             android:fontFamily="@font/littera_regular"
+            android:textSize="10dp"
             android:textStyle="bold"/>
     </LinearLayout>
 
@@ -122,8 +123,8 @@
             android:orientation="vertical">
 
             <Button
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
                 android:layout_marginLeft="130dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
@@ -138,7 +139,7 @@
             android:fontFamily="@font/littera_regular"
             android:text="Contraseña"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -174,7 +175,8 @@
             android:layout_marginTop="9dp"
             android:textAlignment="center"
             android:fontFamily="@font/littera_regular"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="10dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -188,13 +190,14 @@
             android:layout_marginLeft="102dp"
             android:layout_marginTop="35dp"
             android:layout_marginRight="110dp"
-            android:background="@drawable/round_button_dos"
             android:fontFamily="@font/littera_regular"
             android:text="Ingresar"
             android:textAllCaps="false"
             android:textColor="@color/black_buttons"
             android:textSize="19dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+            app:cornerRadius="25dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -208,13 +211,14 @@
             android:layout_marginLeft="102dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="110dp"
-            android:background="@drawable/round_button_dos"
             android:fontFamily="@font/littera_regular"
             android:text="Registrarse"
             android:textAllCaps="false"
             android:textColor="@color/black_buttons"
             android:textSize="18dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+            app:cornerRadius="25dp"/>
     </LinearLayout>
 
 </LinearLayout>

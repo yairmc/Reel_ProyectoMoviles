@@ -16,14 +16,19 @@
 
 
     <Button
-        android:layout_width="263dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="70dp"
-        android:layout_marginRight="100dp"
-        android:background="@drawable/round_button"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:backgroundTint="@color/gris"
+        android:drawableLeft="@drawable/ic_ubicacion"
         android:fontFamily="@font/littera_regular"
         android:text="Cd. Obregón, Sonora, Méx."
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -147,37 +152,42 @@
             android:text="Inicio"
             android:layout_marginLeft="24dp"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="@font/littera_regular"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cartelera"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="15dp"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="@font/littera_regular"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Estrenos"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="15dp"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="@font/littera_regular"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cines"
-            android:layout_marginLeft="27dp"
+            android:layout_marginLeft="15dp"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="@font/littera_regular"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Perfil"
             android:layout_marginLeft="38dp"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="@font/littera_regular"/>
 
 
     </LinearLayout>
