@@ -36,16 +36,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_usuario"/>
+        </LinearLayout>
+
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nombre de Usuario"
+            android:layout_marginLeft="3dp"
             android:textColor="@color/white"
             android:fontFamily="@font/littera_regular"
             android:textSize="15dp"
             android:textStyle="bold"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="85dp"/>
+            />
 
     </LinearLayout>
 
@@ -66,9 +83,27 @@
             android:padding="5dp"/>
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_password"/>
+        </LinearLayout>
+
 
         <TextView
             android:layout_width="match_parent"
@@ -79,7 +114,7 @@
             android:textSize="15dp"
             android:textStyle="bold"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="85dp"/>
+            android:layout_marginLeft="3dp"/>
 
     </LinearLayout>
 
@@ -104,6 +139,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_password"/>
+        </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -113,7 +162,7 @@
             android:textSize="15dp"
             android:textStyle="bold"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="85dp"/>
+            android:layout_marginLeft="3dp"/>
 
     </LinearLayout>
 
@@ -138,6 +187,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_correo"/>
+        </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -147,7 +210,7 @@
             android:textSize="15dp"
             android:textStyle="bold"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="85dp"/>
+            android:layout_marginLeft="3dp"/>
 
     </LinearLayout>
 
