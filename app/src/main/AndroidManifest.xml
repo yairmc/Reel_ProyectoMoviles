@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reel_ProyectoMoviles">
         <activity
+            android:name=".prueba"
+            android:exported="false" />
+        <activity
             android:name=".Inicio"
             android:exported="false" />
         <activity
@@ -20,11 +23,9 @@
         <activity
             android:name=".iniciar_sesion"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

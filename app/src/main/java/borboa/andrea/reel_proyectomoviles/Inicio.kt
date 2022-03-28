@@ -2,7 +2,7 @@ package borboa.andrea.reel_proyectomoviles
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.*
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import borboa.andrea.reel_proyectomoviles.databinding.ActivityInicioBinding
@@ -17,7 +17,6 @@ class Inicio : AppCompatActivity() {
     private lateinit var binding: ActivityInicioBinding
     private lateinit var sliderView: SliderView
 
-    private lateinit var recyclerView : RecyclerView
 
 
 
@@ -30,19 +29,17 @@ class Inicio : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+       // val RecyclerViewImagenes = findViewById<View>(R.id.recyclerview) as RecyclerView
+        //val adapter = RecyclerViewAdapter(itemImages)
+        //RecyclerViewImagenes.adapter=adapter
+        //RecyclerViewImagenes.layoutManager=LinearLayoutManager(this)
+
+
         //inflador del sliderView y vista
         binding= ActivityInicioBinding.inflate(layoutInflater)
         setContentView(binding.root)
         sliderView=findViewById(R.id.sliderView)
-
-        recyclerView = findViewById(R.id.recyclerview)
-
-        val recyclerViewAdapter = RecyclerViewAdapter(itemImages)
-
         val sliderAdapter = SliderAdapter(images)
-
-        //recyclerView.adapter(recyclerViewAdapter)
-
         sliderView.setSliderAdapter(sliderAdapter)
 
 
