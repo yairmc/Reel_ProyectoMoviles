@@ -41,7 +41,7 @@ class Inicio : AppCompatActivity() {
 
         val sliderAdapter = SliderAdapter(images)
 
-        recyclerView.adapter(recyclerViewAdapter)
+        //recyclerView.adapter(recyclerViewAdapter)
 
         sliderView.setSliderAdapter(sliderAdapter)
 
