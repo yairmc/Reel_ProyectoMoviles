@@ -21,7 +21,7 @@ class Inicio : AppCompatActivity() {
 
 
     //Lista de imagenes con las que se llenará el sliderView
-    private var images = intArrayOf(R.drawable.godzilla_vs_kong,R.drawable.liga_de_la_justicia,R.drawable.el_seor_de_los_anillos,R.drawable.pastor_impostor)
+    private var images  = intArrayOf(R.drawable.godzilla_vs_kong,R.drawable.liga_de_la_justicia,R.drawable.el_seor_de_los_anillos,R.drawable.pastor_impostor)
 
     private var itemImages = intArrayOf(R.drawable.dosporuno,R.drawable.precio_especial_1,R.drawable.precio_especial_2,R.drawable.precio_especial_3)
 
