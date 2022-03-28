@@ -19,7 +19,7 @@ class iniciar_sesion : AppCompatActivity() {
         }
 
         btn_index.setOnClickListener {
-            var intent: Intent=Intent(this, Inicio::class.java)
+            var intent: Intent=Intent(this, InicioActivity::class.java)
             startActivity(intent)
         }
 
