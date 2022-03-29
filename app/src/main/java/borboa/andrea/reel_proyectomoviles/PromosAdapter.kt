@@ -1,58 +1,34 @@
-package borboa.andrea.reel_proyectomoviles;
+package borboa.andrea.reel_proyectomoviles
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
+import borboa.andrea.reel_proyectomoviles.PromosItem
+import androidx.recyclerview.widget.RecyclerView
+import borboa.andrea.reel_proyectomoviles.PromosAdapter.PromosViewHolder
+import borboa.andrea.reel_proyectomoviles.R
+import android.view.ViewGroup
+import android.view.LayoutInflater
+import android.view.View
+import android.widget.ImageView
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
+class PromosAdapter(val promosList: List<PromosItem>) :
+    RecyclerView.Adapter<PromosViewHolder>() {
+    inner class PromosViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+         val mImageView: ImageView
 
-import java.util.List;
-
-public class PromosAdapter extends RecyclerView.Adapter<PromosAdapter.PromosViewHolder> {
-
-    public class PromosViewHolder extends RecyclerView.ViewHolder{
-
-        private ImageView mImageView;
-
-
-        public PromosViewHolder (@NonNull View itemView){
-            super(itemView);
-
-            mImageView = itemView.findViewById(R.id.imagePromo);
+        init {
+            mImageView = itemView.findViewById(R.id.imagePromo)
         }
     }
 
-    private List<PromosItem> promosList;
-
-
-    public PromosAdapter(List<PromosItem> promosList){
-        this.promosList=promosList;
-
-
-
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PromosViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.promos_item, parent, false)
+        return PromosViewHolder(view)
     }
 
-    @NonNull
-    @Override
-    public PromosAdapter.PromosViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.promos_item, parent, false);
-        return new PromosAdapter.PromosViewHolder(view);
+    override fun onBindViewHolder(holder: PromosViewHolder, position: Int) {
+        holder.mImageView.setImageResource(promosList[position].image)
     }
 
-    @Override
-    public void onBindViewHolder(@NonNull PromosAdapter.PromosViewHolder holder, int position) {
-        holder.mImageView.setImageResource(promosList.get(position).getImage());
-
+    override fun getItemCount(): Int {
+        return promosList.size
     }
-
-    @Override
-    public int getItemCount() {
-        return promosList.size();
-    }
-
-
-
-
 }

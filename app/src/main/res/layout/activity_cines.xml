@@ -66,6 +66,7 @@
         android:layout_marginTop="15dp">
 
         <ListView
+            android:id="@+id/lv_cines"
             android:layout_width="match_parent"
             android:layout_height="511dp"
             android:layout_marginTop="15dp" />
