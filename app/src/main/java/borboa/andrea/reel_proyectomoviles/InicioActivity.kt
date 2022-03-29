@@ -21,13 +21,9 @@ class InicioActivity : AppCompatActivity() {
         //CarouselRecyclerView
         CarouselRecyclerview = findViewById(R.id.CarouselRecyclerview)
         CarouselRecyclerview.setHasFixedSize(true)
-        CarouselRecyclerview.setLayoutManager(
-            LinearLayoutManager(
-                this,
-                RecyclerView.HORIZONTAL,
-                false
-            )
-        )
+        CarouselRecyclerview.setLayoutManager(LinearLayoutManager(this, RecyclerView.HORIZONTAL, false))
+
+
         val imageList: MutableList<CarouselItem> = ArrayList<CarouselItem>()
         imageList.add(CarouselItem(R.drawable.godzilla_vs_kong))
         imageList.add(CarouselItem(R.drawable.liga_de_la_justicia))
