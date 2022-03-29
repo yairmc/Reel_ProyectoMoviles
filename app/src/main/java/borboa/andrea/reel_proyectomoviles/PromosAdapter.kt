@@ -1,9 +1,7 @@
 package borboa.andrea.reel_proyectomoviles
 
-import borboa.andrea.reel_proyectomoviles.PromosItem
 import androidx.recyclerview.widget.RecyclerView
 import borboa.andrea.reel_proyectomoviles.PromosAdapter.PromosViewHolder
-import borboa.andrea.reel_proyectomoviles.R
 import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View

@@ -1,15 +1,13 @@
 package borboa.andrea.reel_proyectomoviles
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.ImageView
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 
 class cines : AppCompatActivity() {
 
@@ -19,6 +17,28 @@ class cines : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cines)
+
+        var btn_inicio: Button = findViewById(R.id.btn_inicio) as Button
+
+        btn_inicio.setOnClickListener{
+            var intent: Intent = Intent(this, InicioActivity::class.java)
+            startActivity(intent)
+        }
+
+        var btn_cines: Button = findViewById(R.id.btn_cines) as Button
+
+        btn_cines.setOnClickListener{
+            var intent: Intent = Intent(this, borboa.andrea.reel_proyectomoviles.cines::class.java)
+            startActivity(intent)
+        }
+
+        var btn_perfil: Button = findViewById(R.id.btn_perfil) as Button
+
+        btn_perfil.setOnClickListener{
+            var intent: Intent = Intent(this, PerfilActivity::class.java)
+            startActivity(intent)
+        }
+
 
         agregaCines()
 

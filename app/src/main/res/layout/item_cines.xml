@@ -28,50 +28,52 @@
                 <ImageView
                     android:id="@+id/imagen_cine"
                     android:layout_width="103dp"
-                    android:layout_height="139dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="112dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="13dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/cinepolis" />
 
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/nombreCine"
-                    android:layout_width="wrap_content"
+                    android:layout_width="156dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_weight="1"
-                    android:layout_margin="15dp"
+                    android:fontFamily="@font/littera_regular"
                     android:text="Cinépolis Sendero Obregón"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/littera_regular"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/direccion_cine"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
+                    android:layout_width="156dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/littera_regular"
                     android:text="Blvd. Rodolfo Elías Calles #1750 85000 Cd. Obregón, Son."
                     android:textColor="@color/white"
-                    android:fontFamily="@font/littera_regular"
-                    android:textSize="13dp"
-                    />
+                    android:textSize="12dp" />
 
                 <TextView
                     android:id="@+id/salas_cines"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="2D, 3D, Sala Junior"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
                     android:textColor="@color/white"
                     android:fontFamily="@font/littera_regular"
-                    android:layout_marginLeft="15dp"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -82,22 +84,16 @@
 
                     <RatingBar
                         android:id="@+id/ratingBar_cines"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
                         style="?android:attr/ratingBarStyleSmall"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginLeft="55dp"
-                            android:src="@drawable/ic_menu"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -114,25 +110,46 @@
 
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Ver Calificaciones"
                             android:layout_marginLeft="15dp"
                             android:textColor="@color/white"
-                            android:textSize="15dp"
+                            android:textSize="12dp"
                             android:fontFamily="@font/littera_regular"
                             android:textStyle="bold"/>
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Menu"
-                            android:layout_marginLeft="35dp"
-                            android:textColor="@color/white"/>
+
 
                     </LinearLayout>
+
+
                 </LinearLayout>
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="55dp"
+                    android:src="@drawable/ic_menu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/littera_regular"
+                    android:text="Menu"
+                    android:textSize="12dp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+
         </LinearLayout>
 
         <LinearLayout
@@ -143,9 +160,10 @@
             <ImageView
                 android:id="@+id/mapa_cine"
                 android:layout_width="wrap_content"
-                android:layout_height="92dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/mapa1" />
 
@@ -156,7 +174,7 @@
                 android:layout_margin="10dp"
                 android:textColor="@color/white"
                 android:fontFamily="@font/littera_regular"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:textStyle="bold"
                 android:textAlignment="center"/>
 

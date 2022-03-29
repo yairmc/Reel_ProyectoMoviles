@@ -1,14 +1,11 @@
 package borboa.andrea.reel_proyectomoviles
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import android.os.Bundle
-import borboa.andrea.reel_proyectomoviles.R
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
-import borboa.andrea.reel_proyectomoviles.CarouselItem
-import borboa.andrea.reel_proyectomoviles.CarouselAdapter
-import borboa.andrea.reel_proyectomoviles.PromosItem
-import borboa.andrea.reel_proyectomoviles.PromosAdapter
 import java.util.ArrayList
 
 class InicioActivity : AppCompatActivity() {
@@ -18,6 +15,30 @@ class InicioActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicio)
+
+
+        var btn_cines: Button = findViewById(R.id.btn_cines) as Button
+
+        btn_cines.setOnClickListener{
+            var intent: Intent = Intent(this, cines::class.java)
+            startActivity(intent)
+        }
+
+        var btn_perfil: Button = findViewById(R.id.btn_perfil) as Button
+
+        btn_perfil.setOnClickListener{
+            var intent: Intent = Intent(this, PerfilActivity::class.java)
+            startActivity(intent)
+        }
+
+        var btn_estrenos: Button = findViewById(R.id.btn_estrenos) as Button
+
+        btn_estrenos.setOnClickListener {
+            var intent: Intent = Intent(this, EstrenosActivity::class.java)
+            startActivity(intent)
+        }
+
+
         //CarouselRecyclerView
         CarouselRecyclerview = findViewById(R.id.CarouselRecyclerview)
         CarouselRecyclerview.setHasFixedSize(true)

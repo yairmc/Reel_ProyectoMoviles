@@ -1,9 +1,7 @@
 package borboa.andrea.reel_proyectomoviles
 
-import borboa.andrea.reel_proyectomoviles.CarouselItem
 import androidx.recyclerview.widget.RecyclerView
 import borboa.andrea.reel_proyectomoviles.CarouselAdapter.CarouselViewHolder
-import borboa.andrea.reel_proyectomoviles.R
 import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View
