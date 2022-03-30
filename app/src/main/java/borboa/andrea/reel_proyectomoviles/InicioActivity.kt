@@ -39,6 +39,15 @@ class InicioActivity : AppCompatActivity() {
         }
 
 
+        var btn_ubicacion: Button = findViewById(R.id.btn_ubicacion) as Button
+
+        btn_ubicacion.setOnClickListener {
+            var intent: Intent=Intent(this, UbicacionActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
         //CarouselRecyclerView
         CarouselRecyclerview = findViewById(R.id.CarouselRecyclerview)
         CarouselRecyclerview.setHasFixedSize(true)
