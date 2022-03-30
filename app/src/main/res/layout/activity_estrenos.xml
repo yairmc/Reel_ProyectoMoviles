@@ -53,48 +53,58 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/color_background"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@color/color_background">
 
-        <Button
+        <ToggleButton
             android:id="@+id/btn_inicio"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginLeft="24dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/ic_inicio_on" />
+            android:layout_marginTop="5dp"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/toggle_inicio" />
 
-        <Button
+        <ToggleButton
             android:id="@+id/btn_cartelera"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/ic_cartelera_off" />
-
-        <Button
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/toggle_cartelera" />
+        <ToggleButton
             android:id="@+id/btn_estrenos"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/ic_estrenos_off" />
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/troggle_estrenos" />
 
-        <Button
+        <ToggleButton
             android:id="@+id/btn_cines"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/ic_cines_off" />
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/toggle_cines"/>
 
-        <Button
+        <ToggleButton
             android:id="@+id/btn_perfil"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/ic_perfil_off" />
+            android:textOff=""
+            android:textOn=""
+            android:background="@drawable/toggle_perfil" />
+
 
     </LinearLayout>
 
