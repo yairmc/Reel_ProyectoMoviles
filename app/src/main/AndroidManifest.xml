@@ -12,10 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reel_ProyectoMoviles">
         <activity
+            android:name=".RecoveryUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PasswordRecoveryActivity"
+            android:exported="false" />
+        <activity
             android:name=".PerfilActivity"
             android:exported="false" />
-        <activity android:name=".EstrenosActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".UbicacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EstrenosActivity"
+            android:exported="false" />
         <activity
             android:name=".cines"
             android:exported="false" />
