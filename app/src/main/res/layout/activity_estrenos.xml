@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/color_background">
 
@@ -11,20 +11,24 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Próximos Estrenos"
         android:layout_margin="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
         android:fontFamily="@font/littera_regular"
+        android:text="Próximos Estrenos"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="35dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="85dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/gris"
         android:drawableLeft="@drawable/ic_ubicacion"
         android:fontFamily="@font/littera_regular"
@@ -33,28 +37,29 @@
         android:textColor="@color/white"
         android:textSize="12dp"
         android:textStyle="bold"
-        app:cornerRadius="20dp" />
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/cardview_dark_background">
-
-        <ListView
-            android:id="@+id/lv_estrenos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-
-    </ScrollView>
-
+    <ListView
+        android:id="@+id/lv_estrenos"
+        android:layout_width="411dp"
+        android:layout_height="525dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/color_background"
         android:orientation="horizontal"
-        android:background="@color/color_background">
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp">
 
         <ToggleButton
             android:id="@+id/btn_inicio"
@@ -62,51 +67,52 @@
             android:layout_height="30dp"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="5dp"
-            android:textOn=""
+            android:background="@drawable/toggle_inicio"
             android:textOff=""
-            android:background="@drawable/toggle_inicio" />
+            android:textOn="" />
 
         <ToggleButton
             android:id="@+id/btn_cartelera"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
-            android:textOn=""
+            android:layout_marginTop="5dp"
+            android:background="@drawable/toggle_cartelera"
             android:textOff=""
-            android:background="@drawable/toggle_cartelera" />
+            android:textOn="" />
+
         <ToggleButton
             android:id="@+id/btn_estrenos"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
-            android:textOn=""
+            android:layout_marginTop="5dp"
+            android:background="@drawable/troggle_estrenos"
             android:textOff=""
-            android:background="@drawable/troggle_estrenos" />
+            android:textOn="" />
 
         <ToggleButton
             android:id="@+id/btn_cines"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
-            android:textOn=""
+            android:layout_marginTop="5dp"
+            android:background="@drawable/toggle_cines"
             android:textOff=""
-            android:background="@drawable/toggle_cines"/>
+            android:textOn="" />
 
         <ToggleButton
             android:id="@+id/btn_perfil"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginTop="5dp"
             android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/toggle_perfil"
             android:textOff=""
-            android:textOn=""
-            android:background="@drawable/toggle_perfil" />
+            android:textOn="" />
 
 
     </LinearLayout>
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
