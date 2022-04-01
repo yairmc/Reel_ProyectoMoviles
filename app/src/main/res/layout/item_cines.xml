@@ -88,6 +88,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
                         android:layout_marginTop="5dp"
+                        android:rating="3.5"
                         style="?android:attr/ratingBarStyleSmall"/>
 
                     <LinearLayout

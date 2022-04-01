@@ -46,6 +46,12 @@ class InicioActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        var btn_cartelera: Button = findViewById(R.id.btn_cartelera) as Button
+        btn_cartelera.setOnClickListener{
+            var intent: Intent= Intent(this,CarteleraActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
         //CarouselRecyclerView

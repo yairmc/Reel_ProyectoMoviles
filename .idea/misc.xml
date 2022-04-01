@@ -11,14 +11,17 @@
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/round_button.xml" value="0.133" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/round_button_dos.xml" value="0.1" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_apagado.xml" value="0.159" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_campana.xml" value="0.1625" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_cartelera.xml" value="0.159" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_cines.xml" value="0.159" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_guardar.xml" value="0.1625" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_inicio.xml" value="0.159" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_interruptor.xml" value="0.159" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/toggle_perfil.xml" value="0.159" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/drawable/troggle_estrenos.xml" value="0.159" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/font/font.xml" value="0.21822916666666667" />
-        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_cines.xml" value="0.33" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_cartelera.xml" value="0.2" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_cines.xml" value="0.21" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_estrenos.xml" value="0.2" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.25" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_inicio.xml" value="0.33" />
@@ -30,7 +33,8 @@
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_registrarse.xml" value="0.25" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/activity_ubicacion.xml" value="0.33" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/carousel_item.xml" value="0.25" />
-        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/estrenos_item.xml" value="0.20364583333333333" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/cartelera_item.xml" value="0.25" />
+        <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/estrenos_item.xml" value="0.375" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/item_cines.xml" value="0.25" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/perfil_item.xml" value="0.22" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/promos_item.xml" value="0.2" />
@@ -38,8 +42,6 @@
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/ubicacion_item.xml" value="0.22" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/layout/xd.xml" value="0.11302083333333333" />
         <entry key="..\:/Aplicaciones Moviles/Reel_ProyectoMoviles/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.136" />
-        <entry key="..\:/Users/SuperPawn/OneDrive/Escritorio/proyectoApp/Reel_ProyectoMoviles/app/src/main/res/layout/activity_estrenos.xml" value="0.176" />
-        <entry key="..\:/Users/SuperPawn/OneDrive/Escritorio/proyectoApp/Reel_ProyectoMoviles/app/src/main/res/layout/estrenos_item.xml" value="0.4" />
       </map>
     </option>
   </component>
